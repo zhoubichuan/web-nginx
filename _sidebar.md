@@ -1,3 +1,19 @@
-# &nbsp;&nbsp; MongoDB 相关笔记
+# &nbsp;&nbsp; Nginx 相关笔记
 
-* [首页](./README.md)
+* [1.nginx 应用场景](article/1.md)
+* [2.nginx 优势](article/2.md)
+* [3.学习环境](article/3.md)
+* [4.nginx 的架构](article/4.md)
+* [5.nginx 安装](article/5.md)
+* [6.目录](article/6.md)
+* [7.编译参数](article/7.md)
+* [8.配置文件](article/8.md)
+* [9.核心模块](article/9.md)
+* [10.静态资源 Web 服务](article/10.md)
+* [11.浏览器缓存](article/11.md)
+* [12.跨域](article/12.md)
+* [13.防盗链](article/13.md)
+* [14.代理服务](article/14.md)
+* [15.负载均衡](article/15.md)
+* [16.缓存](article/16.md)
+* [17.rewrite](article/17.md)
