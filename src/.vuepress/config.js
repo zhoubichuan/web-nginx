@@ -60,11 +60,11 @@ module.exports = {
         nav: [{
           text: '基础知识',
           items: [{
-            text: '1.Nginx实践指南',
-            link: '/base/build/1.config'
+            text: '1.Nginx基础',
+            link: '/base/build/1.index'
           },
           {
-            text: '2.Nginx相关实践',
+            text: '2.Nginx实践',
             link: '/base/practice/1.Nginx',
           }
           ]
@@ -72,23 +72,19 @@ module.exports = {
         {
           text: '高级知识',
           items: [{
-            text: '1.组件精讲',
+            text: '1.Nginx精讲',
             link: '/senior/use/1.recursionAndDynamics'
-          },
-          {
-            text: '2.TypeScript',
-            link: '/senior/typeScript/inde'
           },
           ]
         }
         ],
         sidebar: {
           '/base/build/': [
-            '1.config',
-            '2.webpack',
-            '3.file',
-            '4.single',
-            '5.page',
+            '1.index',
+            '2.service',
+            '3.cdn',
+            '4.cors',
+            '5.cache',
             '7.module',
             '8.project',
             '9.utils',
@@ -99,8 +95,28 @@ module.exports = {
             '14.data',
             '15.api'
           ],
-          '/base/practice/': ['1.Nginx', '2.Jenkins', '3.gitlab', 'vscode', 'test', 'prem', 'i18n'],
-          '/senior/use/': ['1.recursionAndDynamics', '2.extend', '3.componentCommunication', '4.render', '5.api', '6.form', '7.checkBox', '8.active', '9.alert', '10.table', '11.tree'],
+          '/base/practice/': [
+            '1.Nginx', 
+            '2.Jenkins', 
+            '3.gitlab', 
+            'vscode', 
+            'test', 
+            'prem', 
+            'i18n'
+          ],
+          '/senior/use/': [
+            '1.recursionAndDynamics', 
+            '2.extend', 
+            '3.componentCommunication', 
+            '4.render', 
+            '5.api', 
+            '6.form', 
+            '7.checkBox', 
+            '8.active', 
+            '9.alert', 
+            '10.table', 
+            '11.tree'
+          ],
         }
       }
     }
