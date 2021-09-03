@@ -1,11 +1,11 @@
 module.exports = {
   // 基础配置
-  base: '/Web-Nginx/', // 部署站点的基础路径
-  description: 'Nginx相关知识点',
+  base: '/web-nginx/', // 部署站点的基础路径
+  description: 'Nginx学习笔记',
   locales: {
     // 默认标题
     '/': {
-      title: 'Nginx笔记',
+      title: 'Nginx学习笔记',
       description: ''
     }
   },
@@ -58,22 +58,18 @@ module.exports = {
         editLinkText: '在github上编辑此页',
         lastUpdated: '上次更新', // 获取每个文件最后一次 git 提交的时间戳
         nav: [{
-          text: '基础知识',
+          text: 'Nginx基础知识',
           items: [{
             text: '1.Nginx基础',
             link: '/base/build/1.index'
-          },
-          {
-            text: '2.Nginx实践',
-            link: '/base/practice/1.Nginx',
           }
           ]
         },
         {
-          text: '高级知识',
+          text: 'Nginx高级知识',
           items: [{
             text: '1.Nginx精讲',
-            link: '/senior/use/1.recursionAndDynamics'
+            link: '/senior/use/1.index'
           },
           ]
         }
@@ -95,17 +91,8 @@ module.exports = {
             '14.data',
             '15.api'
           ],
-          '/base/practice/': [
-            '1.Nginx', 
-            '2.Jenkins', 
-            '3.gitlab', 
-            'vscode', 
-            'test', 
-            'prem', 
-            'i18n'
-          ],
           '/senior/use/': [
-            '1.recursionAndDynamics', 
+            '1.index', 
             '2.extend', 
             '3.componentCommunication', 
             '4.render', 

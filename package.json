@@ -4,16 +4,15 @@
   "description": "",
   "main": "index.js",
   "author": "zhoubichaun@icloud.com",
-  "hommepage": "https://github.com/zhoubichuan/Web-Nginx/",
+  "hommepage": "https://github.com/zhoubichuan/web-nginx/",
   "private": true,
   "license": "MIT",
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src",
     "src:build": "vuepress build src",
-    "getname": "node utils/getFilenames.js",
     "deploy": "bash deploy.sh",
-    "gh-pages": "bash deploy_gh-pages.sh"
+    "github": "bash github.sh"
   },
   "devDependencies": {
     "vuepress": "^0.14.4"
