@@ -17,11 +17,11 @@ meta:
             <div class="features">
         <div class="feature">
           <h2>Nginx基础知识</h2> 
-          <p>掌握Nginx组件间的多种通信方式及数据同步 渲染函数及jsx高阶应用 Nginx-cli3、Nginxx、Nginx-router</p>
+          <p>掌握Nginx基础相关基础，包括常见的一些配置方式</p>
         </div>
         <div class="feature">
           <h2>Nginx高级知识</h2> 
-          <p>掌握一般项目中的配置、登录、权限认证、单元测试、国际化、富文本、上传下载等常见功能</p>
+          <p>掌握Nginx中一些难点知识</p>
         </div>
       </div>
     </div>
