@@ -46,64 +46,63 @@ module.exports = {
 
   // 主题配置
   themeConfig: {
+    repo: 'https://github.com/zhoubichuan/web-nginx', // 源码地址
+    repoLabel: '查看源码', // (查看源码的)组件名称
+    docsBranch: 'master', // git 源仓库 仓库分支
     editLinks: true,
     docsDir: 'src', // 假如文档不是放在仓库的根目录下
-    locales: {
-      '/': {
-        docsBranch: 'master', // 假如文档放在一个特定的分支下
-        editLinks: true, // 启用编辑
-        editLinkText: '在github上编辑此页',
-        lastUpdated: '上次更新', // 获取每个文件最后一次 git 提交的时间戳
-        nav: [{
-          text: 'Nginx基础知识',
-          items: [{
-            text: '1.Nginx基础',
-            link: '/base/build/1.index'
-          }
-          ]
-        },
-        {
-          text: 'Nginx高级知识',
-          items: [{
-            text: '1.Nginx精讲',
-            link: '/senior/use/1.index'
-          },
-          ]
-        }
-        ],
-        sidebar: {
-          '/base/build/': [
-            '1.index',
-            '2.service',
-            '3.cdn',
-            '4.cache',
-            '5.cors',
-            '6.link',
-            '7.module',
-            '8.project',
-            '9.utils',
-            '10.ui',
-            // '11.data',
-            // '12.skill',
-            // '13.com',
-            // '14.data',
-            // '15.api'
-          ],
-          '/senior/use/': [
-            '1.index', 
-            '2.extend', 
-            '3.componentCommunication', 
-            '4.render', 
-            '5.api', 
-            '6.form', 
-            '7.checkBox', 
-            '8.active', 
-            '9.alert', 
-            '10.table', 
-            '11.tree'
-          ],
-        }
+    editLinkText: '在github上编辑此页',
+    sidebarDepth: 2,
+    lastUpdated: '上次更新', // 获取每个文件最后一次 git 提交的时间戳
+    searchMaxSuggestoins: 10,
+    nav: [{
+      text: 'Nginx基础知识',
+      items: [{
+        text: '1.Nginx基础',
+        link: '/base/build/1.index'
       }
+      ]
+    },
+    {
+      text: 'Nginx高级知识',
+      items: [{
+        text: '1.Nginx精讲',
+        link: '/senior/use/1.index'
+      },
+      ]
+    }
+    ],
+    sidebar: {
+      '/base/build/': [
+        '1.index',
+        '2.service',
+        '3.cdn',
+        '4.cache',
+        '5.cors',
+        '6.link',
+        '7.module',
+        '8.project',
+        '9.utils',
+        '10.ui',
+        // '11.data',
+        // '12.skill',
+        // '13.com',
+        // '14.data',
+        // '15.api'
+      ],
+      '/senior/use/': [
+        '1.index',
+        '2.extend',
+        '3.componentCommunication',
+        '4.render',
+        '5.api',
+        '6.form',
+        '7.checkBox',
+        '8.active',
+        '9.alert',
+        '10.table',
+        '11.tree'
+      ],
     }
   },
 }
