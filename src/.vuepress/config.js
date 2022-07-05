@@ -56,7 +56,7 @@ module.exports = {
     lastUpdated: '上次更新', // 获取每个文件最后一次 git 提交的时间戳
     searchMaxSuggestoins: 10,
     nav: [{
-      text: 'Nginx基础知识',
+      text: '基础知识',
       items: [{
         text: '1.Nginx基础',
         link: '/base/build/1.index'
@@ -64,7 +64,7 @@ module.exports = {
       ]
     },
     {
-      text: 'Nginx高级知识',
+      text: '高级知识',
       items: [{
         text: '1.Nginx精讲',
         link: '/senior/use/1.index'
