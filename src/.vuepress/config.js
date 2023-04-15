@@ -75,6 +75,7 @@ module.exports = {
     sidebar: {
       '/base/build/': [
         '1.index',
+        '1.config',
         '2.service',
         '3.cdn',
         '4.cache',
