@@ -79,7 +79,7 @@ module.exports = {
       "/base/build/": [
         "1.index",
         "1.config",
-        "2.service",
+        "2.static",
         "3.cdn",
         "4.cache",
         "5.cors",
