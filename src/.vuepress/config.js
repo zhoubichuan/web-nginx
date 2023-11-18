@@ -61,7 +61,7 @@ module.exports = {
         items: [
           {
             text: "1.基本用法",
-            link: "/base/build/1.index",
+            link: "/base/nginx/1.index",
           },
         ],
       },
@@ -76,7 +76,7 @@ module.exports = {
       },
     ],
     sidebar: {
-      "/base/build/": [
+      "/base/nginx/": [
         "1.index",
         "1.config",
         "2.static",

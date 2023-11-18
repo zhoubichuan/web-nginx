@@ -3,7 +3,7 @@ lang: zh-CN
 home: true
 heroImage: ""
 actionText: 先睹为快 →
-actionLink: /base/build/1.index
+actionLink: /base/nginx/1.index
 pageClass: page_index
 footer: Nginx相关知识
 meta:
