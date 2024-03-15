@@ -88,7 +88,7 @@ module.exports = {
         "8.project",
         "9.utils",
         "10.ui",
-        // '11.data',
+        '11.data',
         // '12.skill',
         // '13.com',
         // '14.data',
