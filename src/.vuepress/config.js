@@ -140,7 +140,7 @@ module.exports = {
   ],
   // 主题配置
   themeConfig: {
-    repo: "https://gitee.com/zhoubichuan/web-vue2x", // 源码地址
+    repo: "https://gitee.com/zhoubichuan/web-nginx", // 源码地址
     repoLabel: "查看源码", // (查看源码的)组件名称
     docsBranch: "master", // git 源仓库 仓库分支
     editLinks: true, // 编辑链接
