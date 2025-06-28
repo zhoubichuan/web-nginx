@@ -11,6 +11,8 @@
     "dev": "vuepress dev src",
     "build": "vuepress build src",
     "publish": "gulp && cd lib && npm publish",
+    "scp:uat": "scp -r ./web-nginx/* root@zhoubichuan.com:/usr/src/zhoubichuan/uat/web-nginx/",
+    "scp:prod": "scp -r ./web-nginx/* root@zhoubichuan.com:/usr/src/zhoubichuan/prod/web-nginx/",
     "build:comps": "gulp",
     "deploy": "bash deploy.sh",
     "github": "bash github.sh",
