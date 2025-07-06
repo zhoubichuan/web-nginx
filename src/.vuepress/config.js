@@ -9,7 +9,7 @@ module.exports = {
   base: "/web-nginx/", // 部署站点的基础路径
   port: 3009,
   head: [
-    ['link', { rel: 'icon', href: '/home.svg' }],
+    ['link', { rel: 'icon', href: '/web-nginx/home.svg' }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
     ["script", { src: "/dll/vendor.dll.js" }],
   ],
